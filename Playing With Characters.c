@@ -2,10 +2,9 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-#define MAX_LEN 100
 int main() 
 {
-    char ch, s[MAX_LEN],sen[MAX_LEN];
+    char ch, s[100],sen[100];
     scanf("%c",&ch);
     scanf("%s\n",s);
     scanf("%[^\n]%s",sen);
