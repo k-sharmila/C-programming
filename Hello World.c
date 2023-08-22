@@ -7,7 +7,7 @@ int main()
      char a[100];
      gets(a);
      //scanf("%[^\n]*c",a);
-     printf("Hello, World!");
+    // printf("Hello, World!");
      printf("\n%s",a);
     
      return 0;
